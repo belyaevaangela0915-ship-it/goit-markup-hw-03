@@ -208,7 +208,8 @@ a {
 .portfolio-item {
     
     margin-bottom: 24px; 
-    width: calc((100% - 19px * 3) / 4);  /* 3 в ряд */             /* отступ между строками */
+    width: calc((100% - 19px * 3) / 4);  
+
 }
 
 
@@ -237,7 +238,7 @@ a {
     color: #434455;
 }
 
-/* FOOTER */
+
 .footer {
     background-color: #2e2f42;
     padding: 60px 0;
