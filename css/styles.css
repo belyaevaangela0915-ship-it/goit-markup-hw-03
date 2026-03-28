@@ -193,25 +193,25 @@ a {
 
 .portfolio-section {
     padding: 100px 0;
-     
+    background-color: #ffffff;
 }
 
+.portfolio-section .section-title {
+    margin-bottom: 72px;
+    text-align: center;
+}
+
+
 .portfolio-list {
-    display: flex; 
-    flex-wrap: wrap; 
-    gap: 24px;
-   justify-content: space-between; 
-   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
 .portfolio-item {
-    
-    margin-bottom: 24px; 
-    width: calc((100% - 19px * 3) / 4);  
-
+    width: calc((100% - 48px) / 3);  
 }
-
 
 .portfolio-item:nth-child(4),
 .portfolio-item:nth-child(5),
@@ -219,10 +219,9 @@ a {
     margin-bottom: 0;
 }
 
-
 .portfolio-item img {
     width: 100%;
-    height: 300px;
+    height: 300px;                    /* фиксированная высота как в оригинале */
     object-fit: cover;
     border-radius: 4px;
     display: block;
@@ -253,4 +252,4 @@ a {
 .footer-text {
     max-width: 400px;
     color: #f4f4fd;
-}
+} 
