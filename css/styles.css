@@ -104,7 +104,7 @@ img {
     font-style: normal;
 }
 
-.contact-ul {
+.contact-list {
     display: flex;
     gap: 40px;
 }
