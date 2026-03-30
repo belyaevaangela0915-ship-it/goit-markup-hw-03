@@ -256,6 +256,11 @@ img {
     flex-basis: calc((100% - 48px) / 3);
 }
 
+.our-team-li-img {
+    width: 264;
+    height: 260;
+} 
+
 .our-portfolio-h2 {
     font-size: 36px;
     line-height: 1.11;
